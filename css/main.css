@@ -8,7 +8,6 @@ body {
   margin-left: 80px;
 }
 
-  /* Свойства ссылок */
 a {
   display: block;
   text-decoration:none;
@@ -16,12 +15,10 @@ a {
   position: relative;
 }
 
-  /* Что делать при наведении на ссылку */
 a:hover {
   color:#dc143c;
 }
 
-  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
 a::after {
   content: '';
   position: absolute;
@@ -59,7 +56,6 @@ h2 {
   color:#dc143c;
 }
 
-  /* Эффект наведения на картинку */
 .photo:hover {
   border: 3px solid #008000;
 }
